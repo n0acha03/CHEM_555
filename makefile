@@ -16,7 +16,7 @@ compile:test.f03
 	$(FC) $(FCFLAGS) $(MQCOBJS) -o test.exe test.f03 $(LIBS)
 
 clean:
-	rm -f test.f03.exe test.f03.o
+	rm -f test.exe test.o
 
 
 
